@@ -1,0 +1,103 @@
+ .App
+ {
+    text-align: center;
+ }
+ body.bg1{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     background:url("https://c0.wallpaperflare.com/preview/985/707/709/business-computers-discussion-indoors.jpg");
+     background-size:cover;
+    }
+ .mainbox{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    /* margin:0;  */
+    width:100%;
+}
+.box
+{
+    height:400px;
+    width: 400px;
+    /* background-color: #ccc; */
+    /* box-shadow:10px 10px 10px black; */
+    border-radius:10px;
+    backdrop-filter: blur(100px);
+    background-color:rgb(234, 220, 176);
+}
+.box1
+{
+    height:400px;
+    width: 400px;
+    background-image:url("https://wallpapercave.com/wp/wp8442978.jpg");
+    background-size:cover;
+    border-radius:10px;
+    /* box-shadow:10px 10px 10px black; */
+}
+.heading
+{
+    text-align:center;
+}
+.name
+{
+    margin-top:50px;
+    width:200px;
+    margin-bottom: 10px;
+    /* box-sizing: border-box;  */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+.password
+{
+    margin-top:100px;
+    width:200px;
+    padding:10px;
+    border-radius: 50px;
+    border:1px solid #ccc;
+    margin-bottom: 10px;
+}
+.button
+{
+    margin-top:10px;
+    padding: 10px;
+    border:none;
+    width:100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:15px;
+}
+.button:hover {
+    background-color: #45a049;
+} 
+a
+{
+    text-decoration: none;
+    color:black;
+    transition: color 0.3s;
+}
+a:hover
+{
+    color:beige;
+}
+.anchor2
+{
+    margin-bottom:20px;
+    color:white;
+    font-size:19px;
+}
+.anchor2:hover
+{
+   font-size: 20px;
+}
+.forgot
+{
+    color:red;
+    font-size:18px;
+}
+.anchor1:hover
+{
+    font-size: 19px;
+}
